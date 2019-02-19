@@ -42,11 +42,13 @@ body {
     top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
+    text-align: center;
 }
 .heading__primary {
     color: #fff;
     text-transform: uppercase;
     backface-visibility: hidden;
+    margin-bottom: 60px;
 }
 .heading__primary__main {
     display: block;
@@ -100,4 +102,21 @@ body {
     100% {
         transform: scale(1);
     }
+}
+.btn:link,
+.btn:visited {
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 15px 40px;
+    display: inline-block;
+}
+.btn:hover {
+    transform: translateY(-3px);
+}
+.btn:active {
+    transform: translateY(-1px);
+}
+.btn__white {
+    background-color: #fff;
+    color: #777;
 }
